@@ -19,7 +19,9 @@ import {
   suth,
   chatapp,
   gpt,
-  threejs
+  threejs,
+  cafe,
+  peer
 } from "../assets";
   
   export const navLinks = [
@@ -162,6 +164,52 @@ import {
   ];
   
   const projects = [
+    {
+      name: "Peer Pulse - Student Engagement Platform",
+      description:
+        "Developed a web-based platform, leveraging the MERN stack, effectively connecting over 900+ students, enhancing communication and engagement within the university community",
+      tags: [
+        {
+          name: "Express.js",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "React.js",
+          color: "green-text-gradient",
+        },
+        {
+          name: "restapi",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "MongoDB",
+          color: "blue-text-gradient",
+        },
+      ],
+      image: peer,
+      source_code_link: "https://github.com/Sriya03/Peer_Pulse",
+    },
+    {
+      name: "Cafe Management System",
+      description:
+        "Designed  a multi-module Java application to automate cafe operations, for efficiency in menu management, order processing",
+      tags: [
+        {
+          name: "Java",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "OOPS",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Swing UI",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: cafe,
+      source_code_link: "https://github.com/Sriya03/cafe-management-system",
+    },
     {
       name: "Real time Chat Application",
       description:

@@ -26,7 +26,9 @@ import pwc from "./company/pwc.png";
 import suth from "./company/suth.png"
 //Projects
 import chatapp from "./chatapp.jpg";
-import gpt from "./gpt.png"
+import gpt from "./gpt.png";
+import cafe from "./Item_list.png";
+import peer from "./Peer_Pulse.png";
 
 
 export {
@@ -54,5 +56,7 @@ export {
   pwc,
   suth,
   chatapp,
-  gpt
+  gpt,
+  cafe,
+  peer
 };
