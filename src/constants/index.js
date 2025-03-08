@@ -21,7 +21,8 @@ import {
   gpt,
   threejs,
   cafe,
-  peer
+  peer,
+  fidelity
 } from "../assets";
   
   export const navLinks = [
@@ -111,16 +112,29 @@ import {
   
   const experiences = [
     {
+      title: "Full stack developer Co-op",
+      company_name: "Fidelity Investments",
+      icon: fidelity,
+      iconBg: "#383E56",
+      date: "June 2024 - December 2024",
+      points: [
+        "Led the production rollout of a new analysis feature, coordinating UAT deployment, collaborating with infrastructure and data science teams, and minimizing post-release issues by 20% through comprehensive testing and deployment planning",
+        "Increased test coverage by 42% by implementing UI automation with Playwright, optimizing testing workflows and efficiency",
+        "Researched and proposed Aerospike as the storage solution for file upload optimization, resulting in 33% reduction in latency by designing and deploying a scalable API feature with Spring Boot and Angular in collaboration with business leaders",
+        "Optimized API logic in Spring Boot for scalable, distributed systems, resulting in 15% reduction in processing time and faster data retrieval for complex calculations to compute 10000+ fund returns"
+      ],
+    },
+    {
       title: "Software Engineer",
       company_name: "PricewaterhouseCoopers",
       icon: pwc,
       iconBg: "#383E56",
       date: "September 2021 - June 2023",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Led a 6-member Frontend team for a prominent US-based insurance client, overseeing the entire Software Development Life Cycle (SDLC) from requirements gathering to implementation and deployment of a user-centric solution",
-        "Orchestrated and presented impactful review demos garnering high appreciation from stakeholders and contributing to a successful internal project"
+        "Managed a 6-member frontend team through the complete SDLC, delivering scalable and user-centric solutions for a major US insurance client, resulting in 18% improvement in user engagement",
+        "Initiated and developed a proof-of-concept to integrate customer credit scores into the claims process, demonstrating feasibility  which was successfully demonstrated to stakeholders and earned high praise for its innovation",
+        "Mentored junior developers and conducted 40+ peer code reviews, improving team coding standards and streamlining the onboarding process, reducing ramp-up time for new hires by 32%",
+        "Reduced development timelines by 25% by implementing agile practices, optimizing resource management, and introducing CI/CD pipelines, accelerating time-to-market for key features"
       ],
     },
     {
@@ -164,6 +178,35 @@ import {
   ];
   
   const projects = [
+    {
+      name: " Cloud Native Web Application",
+      description:
+        "Utilized Infrastructure as Code (Iaac) to configure network infrastructure, including VPCs, private and public subnets, firewall rules, load balancers, auto scalers, serverless functions, and  GCP Pub/Sub ensuring effective traffic management and scalability",
+      tags: [
+        {
+          name: "CI/CD",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Terraform",
+          color: "green-text-gradient",
+        },
+        {
+          name: " GCP",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "Packer",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Node.js",
+          color: "blue-text-gradient",
+        }
+      ],
+      image: peer,
+      source_code_link: "https://github.com/Sriya03/Peer_Pulse",
+    },
     {
       name: "Peer Pulse - Student Engagement Platform",
       description:

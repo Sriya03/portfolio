@@ -29,7 +29,7 @@ import chatapp from "./chatapp.jpg";
 import gpt from "./gpt.png";
 import cafe from "./Item_list.png";
 import peer from "./Peer_Pulse.png";
-
+import fidelity from "./company/fidelityimage.png"
 
 export {
   logo,
@@ -58,5 +58,6 @@ export {
   chatapp,
   gpt,
   cafe,
-  peer
+  peer,
+  fidelity
 };
