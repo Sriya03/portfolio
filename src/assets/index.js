@@ -24,7 +24,7 @@ import threejs from "./tech/threejs.svg";
 //Companies
 import pwc from "./company/pwc.png";
 import suth from "./company/suth.png"
-//Projects
+//Projects new
 import chatapp from "./chatapp.jpg";
 import gpt from "./gpt.png";
 import cafe from "./Item_list.png";
