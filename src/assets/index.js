@@ -27,7 +27,7 @@ import suth from "./company/suth.png"
 //Projects new
 import chatapp from "./chatapp.jpg";
 import gpt from "./gpt.png";
-import cafe from "./Item_list.png";
+import cafe from "./Item_List.png";
 import peer from "./Peer_Pulse.png";
 import fidelity from "./company/fidelityimage.png"
 
